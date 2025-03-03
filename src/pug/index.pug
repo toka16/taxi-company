@@ -36,24 +36,18 @@ html(lang='en')
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
                         li.nav-item
-                            a.nav-link(href='#services') Services
+                            a.nav-link(href='#cars') Cars
                         li.nav-item
-                            a.nav-link(href='#portfolio') Portfolio
-                        li.nav-item
-                            a.nav-link(href='#about') About
-                        li.nav-item
-                            a.nav-link(href='#team') Team
-                        li.nav-item
-                            a.nav-link(href='#contact') Contact
+                            a.nav-link(href='#destinations') Destinations
         // Masthead
         header.masthead
             .container
                 .masthead-subheading Welcome to our Taxi company
                 .masthead-heading.text-uppercase Taxi transfers to and from Tbilisi Airport, taking you anywhere in Georgia.
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+                a.btn.btn-primary.btn-xl.text-uppercase(href='tel:+995555553955') Book a Car
 
         // Services
-        section#services.page-section
+        section#cars.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase Our Taxis
@@ -87,102 +81,46 @@ html(lang='en')
                             | Vans from X GEL
 
         // Portfolio Grid
-        section#portfolio.page-section.bg-light
+        section#destinations.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase Popular Destinations
                     h3.section-subheading.text-muted Places to visit in Georgia
                 .row
-                    .col-lg-4.col-sm-6.mb-4
+                    .col-lg-4.col-sm-6.mb-4.d-flex
                         // Portfolio item 1
-                        .portfolio-item
+                        .portfolio-item.d-flex.flex-column
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+                                img.img-fluid(src='assets/img/gudauri.jpg', alt='Gudauri')
                             .portfolio-caption
                                 .portfolio-caption-heading Airport To Gudauri Taxi Transfer
                                 .portfolio-caption-subheading.text-muted Economy from 220 GEL 
                                 .portfolio-caption-subheading.text-muted Comfort from 250 GEL 
-                    .col-lg-4.col-sm-6.mb-4
+                    .col-lg-4.col-sm-6.mb-4.d-flex
                         // Portfolio item 2
-                        .portfolio-item
+                        .portfolio-item.d-flex.flex-column
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+                                img.img-fluid(src='assets/img/tbilisi.jpg', alt='Tbilisi Center')
                             .portfolio-caption
                                 .portfolio-caption-heading Airport To Tbilisi Center Taxi Transfer
                                 .portfolio-caption-subheading.text-muted From 60 GEL
-                    .col-lg-4.col-sm-6.mb-4
+                    .col-lg-4.col-sm-6.mb-4.d-flex
                         // Portfolio item 3
-                        .portfolio-item
+                        .portfolio-item.d-flex.flex-column
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
+                                img.img-fluid(src='assets/img/kazbegi.jpg', alt='Kazbegi')
                             .portfolio-caption
                                 .portfolio-caption-heading Airport To Kazbegi Taxi Transfer
                                 .portfolio-caption-subheading.text-muted From 288 GEL
-
-        // About
-        section#about.page-section
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                ul.timeline
-                    li
-                        .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='...')
-                        .timeline-panel
-                            .timeline-heading
-                                h4 2009-2011
-                                h4.subheading Our Humble Beginnings
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li.timeline-inverted
-                        .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='...')
-                        .timeline-panel
-                            .timeline-heading
-                                h4 March 2011
-                                h4.subheading An Agency is Born
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li
-                        .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='...')
-                        .timeline-panel
-                            .timeline-heading
-                                h4 December 2015
-                                h4.subheading Transition to Full Service
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li.timeline-inverted
-                        .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='...')
-                        .timeline-panel
-                            .timeline-heading
-                                h4 July 2020
-                                h4.subheading Phase Two Expansion
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li.timeline-inverted
-                        .timeline-image
-                            h4
-                                | Be Part
-                                br
-                                | Of Our
-                                br
-                                | Story!
 
 
         // Footer
@@ -203,9 +141,6 @@ html(lang='en')
         include includes/portfolio-modal-1
         include includes/portfolio-modal-2
         include includes/portfolio-modal-3
-        include includes/portfolio-modal-4
-        include includes/portfolio-modal-5
-        include includes/portfolio-modal-6
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')

@@ -2,7 +2,7 @@
 // Portfolio section styling
 //
 
-#portfolio {
+#destinations {
     .portfolio-item {
         max-width: 26rem;
         margin-left: auto;
@@ -12,6 +12,7 @@
             position: relative;
             display: block;
             margin: 0 auto;
+            flex-grow: 1;
 
             .portfolio-hover {
                 display: flex;
